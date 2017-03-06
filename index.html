@@ -106,14 +106,14 @@
 								<h3>SCSS</h3>
 							</div>
 							<div class="4u 12u(mobile)">
-									<img class='tech-logo' src="images/tech-logos/css.png" />
+									<img id='css-logo' class='tech-logo' src="images/tech-logos/css.png" />
 									<h3>CSS3</h3>
 							</div>
 						</div>
 						<div class='row'>
 							<div class="4u 12u(mobile)">
-									<img class='tech-logo' src="images/tech-logos/amazon_web_services.png" />
-									<h3>Amazon Web Services</h3>
+									<img id='aws-logo' class='tech-logo' src="images/tech-logos/amazon_web_services.png" />
+									<h3 id='aws-logo-label'>Amazon Web Services</h3>
 							</div>
 							<div class="4u 12u(mobile)">
 									<img class='tech-logo' src="images/tech-logos/heroku.png" />
@@ -182,15 +182,31 @@
 						<p class='about-me'>Growing up, I always found myself breaking things and putting them back together. In university I majored in Genetics where through my labwork I continued the trend by knocking out genes, observing what went wrong (or right), and making an educated guess regarding the function of the gene.</p>
 						<p class='about-me'>My education in Genetics has strongly informed the way I learn new technologies and tackle engineering challenges. Instead of focusing solely on writing code, I spend much of my time breaking down my own code and the code of others in order to develop a deeper understanding of what makes the code work and to write DRY, elegant code.</p>
 						<p class='about-me'>When I'm not coding, I enjoy running, reading, and playing the saxophone.</p>
-						<ul class="email-and-resume-links">
-							<li><i class="fa fa-envelope fa-lg" aria-hidden="true"></i><a href='mailto:davilam91@gmail.com' class='footer-link'>Email: davilam91@gmail.com</a></li>
-							<li><i class="fa fa-file-o fa-lg" aria-hidden="true"></i><a href='/assets/files/resume.pdf' class='footer-link'>Resume</a></li>
-						</ul>
 					</header>
 					<div>
 						<div class="row">
 							<div class="12u">
 								<article id="contact">
+									<hr />
+									<h2>Contact</h2>
+									<div class='contact-info-container'>
+										<div class='email-and-phone-number-container'>
+											<p><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> davilam91@gmail.com</p>
+											<p><i id='phone-icon' class="fa fa-phone fa-lg" aria-hidden="true"></i>(917) 745-3848</p>
+										</div>
+										<div class='email-and-resume-buttons'>
+											<a href="mailto:davilam91@gmail.com" class="button"> Email</a>
+											<a href="./assets/files/resume.pdf" class="button">Resume</a>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<article>
 									<hr />
 									<h3>Let's build something together</h3>
 									<ul class="social">
@@ -206,7 +222,7 @@
 					</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; MELANIE DAVILA.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</footer>
 				</article>
@@ -220,6 +236,5 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
