@@ -1173,6 +1173,7 @@
 		margin-bottom: 2em;
 	}
 
+
 /* Form */
 
 	form label {
@@ -2138,4 +2139,68 @@
 					display: block;
 				}
 
+	}
+
+
+/* Skills */
+	#css-logo {
+		max-height: 190px;
+		max-width: 150px;
+	}
+
+	#aws-logo {
+		min-height: 190px;
+		min-width: 240px;
+		margin-left: 40px;
+	}
+
+	#aws-logo-label {
+		margin-left: 40px;
+	}
+
+/* Contact */
+
+	.contact-info-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.email-and-phone-number-container {
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+	}
+
+	.email-and-phone-number-container > p {
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	.email-and-phone-number-container > p:first-child {
+		margin-bottom: 58px;
+	}
+
+	.email-and-phone-number-container p > i {
+		padding-right: 10px;
+		font-size: 40px;
+	}
+
+	.email-and-resume-buttons {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.email-and-resume-buttons > a {
+		margin-bottom: 20px;
+	}
+
+	#phone-icon {
+		font-size: 50px;
+		margin-right: 7px;
+	}
+
+	#contact h2 {
+		font-size: 35px;
+		margin-bottom: 50px;
 	}
