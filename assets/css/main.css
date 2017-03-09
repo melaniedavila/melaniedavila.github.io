@@ -2143,20 +2143,76 @@
 
 
 /* Skills */
+
+	.tech-icon-container {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	.tech-icon-logo-and-name {
+		margin: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100px;
+		height: 144px;
+	}
+
+	.tech-icon-logo-and-name > h3 {
+		font-size: 15px;
+		margin: 0;
+		bottom: 0;
+	}
+
+	.tech-logo {
+		width: 100px;
+		height: 90px;
+	}
+
+	#rails-logo {
+		max-width: 85px;
+		margin-left: 7px;
+	}
+
 	#css-logo {
-		max-height: 190px;
-		max-width: 150px;
+		max-height: 105px;
+		max-width: 75px;
+	}
+
+	#css-logo-label {
+		padding-right: 20px;
 	}
 
 	#aws-logo {
-		min-height: 190px;
-		min-width: 240px;
-		margin-left: 40px;
+		max-height: 160px;
+		width: 115px;
+	}
+
+	#google-maps-container {
+		width: 121px;
+		display: flex;
+		align-items: center;
+	}
+
+	#aws-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100px;
+		height: 144px;
+		margin: 30px 10px 15px 7px;
 	}
 
 	#aws-logo-label {
-		margin-left: 40px;
+		font-size: 15px;
+		bottom: 0;
 	}
+
+
 
 /* Contact */
 
@@ -2194,6 +2250,7 @@
 	.email-and-resume-buttons > a {
 		margin-bottom: 20px;
 	}
+
 
 	#phone-icon {
 		font-size: 50px;
