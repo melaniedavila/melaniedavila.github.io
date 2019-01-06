@@ -2196,6 +2196,10 @@
 		max-width: 90px;
 	}
 	
+	#shiny-logo {
+		max-width: 90px;
+	}
+	
 	#google-maps-container {
 		width: 121px;
 		display: flex;
