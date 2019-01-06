@@ -2192,6 +2192,10 @@
 		width: 115px;
 	}
 
+	#ggplot2-logo {
+		max-width: 90px;
+	}
+	
 	#google-maps-container {
 		width: 121px;
 		display: flex;
