@@ -2269,3 +2269,12 @@
 		font-size: 35px;
 		margin-bottom: 50px;
 	}
+	
+	.row-2 {
+		display: flex;
+		justify-content: center;
+	}
+
+	.row-2 > div {
+		padding: 25px;
+	}
