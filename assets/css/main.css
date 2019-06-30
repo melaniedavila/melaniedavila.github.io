@@ -171,6 +171,9 @@
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
+		display: flex;
+		justify-content: center;
+		padding: 25px;
 	}
 
 	.row > * {
@@ -2195,11 +2198,11 @@
 	#ggplot2-logo {
 		max-width: 90px;
 	}
-	
+
 	#shiny-logo {
 		max-width: 90px;
 	}
-	
+
 	#google-maps-container {
 		width: 121px;
 		display: flex;
@@ -2268,13 +2271,4 @@
 	#contact h2 {
 		font-size: 35px;
 		margin-bottom: 50px;
-	}
-	
-	.row-2 {
-		display: flex;
-		justify-content: center;
-	}
-
-	.row-2 > div {
-		padding: 25px;
 	}
