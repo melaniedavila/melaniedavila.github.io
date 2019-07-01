@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Miniport by HTML5 UP
+	Highlights by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
@@ -8,261 +8,231 @@
 	<head>
 		<title>Melanie Davila</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 	</head>
-	<body>
+	<body class="is-preload">
 
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#top">Top</a></li>
-					<li><a href="#work">Skills</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#about">About Me</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<h1>Melanie Davila</h1>
+					<h2>Software Engineer</h2>
+				</header>
+				<div class="container">
+					<ul class="actions special">
+						<li><a href="#one" class="button primary scrolly">Begin</a></li>
+					</ul>
+				</div>
+			</section>
 
-		<!-- Home -->
-			<div class="wrapper style1 first">
-				<article class="container" id="top">
-					<div class="row">
-						<div class="4u 12u(mobile)">
-							<span class="image fit"><img src="images/profile_pic.jpg" alt="Profile Picture" /></span>
-						</div>
-						<div class="8u 12u(mobile)">
-							<header>
-								<h1>Hello world. I'm <strong>Melanie</strong>.</h1>
-							</header>
-							<p>I'm an NYC-based software engineer  with experience building web applications and data pipelines.</p>
-							<a href="#work" class="button big scrolly">Check out my skills</a>
+		<!-- One -->
+			<section id="one" class="main special">
+				<div class="container">
+					<img id="profile_pic" src="images/profile_pic.jpg" alt="Profile picture"/>
+					<!-- <div class="content"> -->
+						<!-- <header class="major"> -->
+							<!-- <h2>Intro</h2> -->
+						<!-- </header> -->
+						<p id="intro-p-1">Hello, world. I'm Melanie.</p>
+						<p>I'm an NYC-based software engineer with experience building web applications and data pipelines.</p>
+							
+						<!-- <p>Hi, my name is Melanie and I'm a software engineer in NYC. I love solving challenging problems and learning new technologies, even more so when I'm working as part of a team.</p>
+						<p>I geek out about all things data and have over 6 years of professional experience solving data-related problems and enhancing the end user experience in the biotechnology, public health, and healthcare industries.</p>
+						<p>Growing up, I always found myself breaking things and putting them back together. In university I majored in Genetics where through my labwork I continued the trend by knocking out genes, observing what went wrong (or right), and making an educated guess regarding the function of the gene.</p>
+						<p>My education in Genetics has strongly informed the way I learn new technologies and tackle engineering challenges. Instead of focusing solely on writing code, I spend much of my time breaking down my own code and the code of others in order to develop a deeper understanding of what makes the code work and to write DRY, elegant code.</p>
+						<p>When I'm not coding, I enjoy running, reading, and playing the saxophone.</p> -->
+					<!-- </div> -->
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main special">
+				<div class="container">
+					<div class="content">
+						<header class="major">
+							<h2>Technologies I Use</h2>
+						</header>
+						<div class="tech-icon-container">
+							<div class="tech-icon-logo-and-name">
+									<img class='tech-logo' src="images/tech-logos/python.png" />
+									<h3>Python</h3>
+							</div>
+							<div class="tech-icon-logo-and-name">
+									<img class='tech-logo' src="images/tech-logos/pandas.png" />
+									<h3>pandas</h3>
+							</div>
+							<div class="tech-icon-logo-and-name">
+								<img class='tech-logo' src="images/tech-logos/r.png" />
+								<h3>R</h3>
+							</div>
+							<div class="tech-icon-logo-and-name">
+								<img id="shiny-logo" class='tech-logo' src="images/tech-logos/shiny.png" />
+								<h3>Shiny</h3>
+							</div>
+							<div class="tech-icon-logo-and-name">
+								<img id="ggplot2-logo" class='tech-logo' src="images/tech-logos/ggplot2.png" />
+								<h3>ggplot2</h3>
+							</div>
+							<div class="tech-icon-logo-and-name">
+								<img class='tech-logo' src="images/tech-logos/javascript.png" />
+								<h3>JavaScript</h3>
+							</div>
+							<div class="tech-icon-logo-and-name">
+								<img class='tech-logo' src="images/tech-logos/redux.png" />
+								<h3>Redux</h3>
+							</div>
+							<div class="tech-icon-logo-and-name">
+									<img class='tech-logo' src="images/tech-logos/react.png" />
+									<h3>React</h3>
+							</div>
+							
+							
+							<div class="tech-icon-logo-and-name">
+									<img class='tech-logo' src="images/tech-logos/ruby.png" />
+									<h3>Ruby</h3>
+							</div>
+							<div class="tech-icon-logo-and-name">
+									<img id='rails-logo' class='tech-logo' src="images/tech-logos/rails.png" />
+									<h3>Ruby on Rails</h3>
+							</div>
+							<div class="tech-icon-logo-and-name">
+									<img class='tech-logo' src="images/tech-logos/postgresql.png" />
+									<h3>PostgreSQL</h3>
+							</div>
+							<div class="tech-icon-logo-and-name">
+									<img class='tech-logo' src="images/tech-logos/git.png" />
+									<h3>Git</h3>
+							</div>
+							<div class="tech-icon-logo-and-name">
+								<img class='tech-logo' src="images/tech-logos/html.png" />
+								<h3>HTML</h3>
+							</div>
+							<div class="tech-icon-logo-and-name">
+									<img id='css-logo' class='tech-logo' src="images/tech-logos/css.png" />
+									<h3 id='css-logo-label'>CSS</h3>
+							</div>
+							<div id="aws-container">
+									<img id='aws-logo' class='tech-logo' src="images/tech-logos/amazon_web_services.png" />
+									<h3 id='aws-logo-label'>AWS</h3>
+							</div>
+							<div class="tech-icon-logo-and-name">
+									<img class='tech-logo' src="images/tech-logos/docker.png" />
+									<h3>Docker</h3>
+							</div>
 						</div>
 					</div>
-				</article>
-			</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</div>
+			</section>
 
-		<!-- Work -->
-			<div class="wrapper style2">
-				<article id="work">
-					<header>
-						<h2>Skills</h2>
-						<p>I love learning new technologies. Here are some tools I use:</p>
+		<!-- Three -->
+			<section id="three" class="main special">
+				<div class="container">
+					<!-- <span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span> -->
+					<!-- <div class="content"> -->
+						<header class="major">
+							<h2>Projects</h2>
+						</header>
+						<div class="project">
+							<a href="https://github.com/melaniedavila/cellranger-aws-pipeline" target="_blank"><img class="project-image" src="images/portfolio/cellranger_pipeline_diagram.png" alt="Diagram of the cellranger pipeline"/></a>
+							<h3 class="project-title">Cellranger Pipeline</h3>
+							<p class="project-Description">A cloud-based deployment of the 10x Genomics Cell Ranger software</p>
+							<a href="https://github.com/melaniedavila/cellranger-aws-pipeline" target="_blank">GitHub</a>
+						</div>
+						<hr>
+						</br>
+						<div class="project">
+							<a href="https://github.com/ismms-himc/cytutils" target="_blank"><img class="project-image" src="images/portfolio/cytutils-shiny-gui.png" alt="Cytutils R/Shiny app user interface screenhot"/></a>
+							<h3 class="project-title">cytutils</h3>
+							<p class="project-Description">An R package and R/Shiny app for cytometry quality control and reproducibility utilities.</p>
+							<a href="https://github.com/ismms-himc/cytutils" target="_blank">GitHub</a>
+						</div>
+						<hr>
+						</br>
+						<div class="project">
+							<a href="https://github.com/melaniedavila/midsoul" target="_blank"><img class="project-image" src="images/portfolio/midsoul-route-creation.png" alt="A screenshot from the app Midsoul"/></a>
+							<h3 class="project-title">midSoul</h3>
+							<p class="project-Description">A fullstack, single-page app for runners, built with Rails, React.js, & Redux</p>
+							<a href="https://github.com/melaniedavila/midsoul" target="_blank">GitHub</a>
+						</div>
+						<hr>
+						</br>
+						<div class="project">
+							<a href="http://melaniedavila.com/remission-possible/" target="_blank"><img class="project-image" src="images/portfolio/remission-possible.png" alt="A screenshot of Remission Possible gameplay"/></a>
+							<h3 class="project-title">(Re)Mission Possible</h3>
+							<p class="project-Description">A browser-based cancer butt-kicking game, built with JavaScript & Easel.js</p>
+							<a href="http://melaniedavila.com/remission-possible/" target="_blank">GitHub</a>
+						</div>
+						<hr>
+						</br>
+						<div class="project">
+							<a href="https://github.com/melaniedavila/dynamic-record" target="_blank"><img class="project-image" src="images/portfolio/dynamic-record.png" alt="A screenshot of the Ruby code for DyanmicRecord"/></a>
+							<h3 class="project-title">DynamicRecord</h3>
+							<p class="project-Description">A lightweight Ruby object relational mapping (ORM) library.</p>
+							<a href="https://github.com/melaniedavila/dynamic-record" target="_blank">GitHub</a>
+						</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</div>
+			</section>
+
+		<!-- Four -->
+			<section id="four" class="main special">
+				<div class="container">
+						<header class="major">
+							<h2>About</h2>
+						</header>
+						<p>My name is Melanie and I'm a software engineer in NYC. I love solving challenging problems and learning new technologies, even more so when I'm working as part of a team.</p>
+						<p>I geek out about all things data and have over 6 years of professional experience solving data-related problems and enhancing the end user experience in the biotechnology, public health, and healthcare industries.</p>
+						<p>Growing up, I always found myself breaking things and putting them back together. In university I majored in Genetics where through my labwork I continued the trend by knocking out genes, observing what went wrong (or right), and making an educated guess regarding the function of the gene.</p>
+						<p>My education in Genetics has strongly informed the way I learn new technologies and tackle engineering challenges. Instead of focusing solely on writing code, I spend much of my time breaking down my own code and the code of others in order to develop a deeper understanding of what makes the code work and to write DRY, elegant code.</p>
+						<p>When I'm not coding, I enjoy running, reading, and playing the saxophone.</p>
+					<a href="#footer" class="goto-next scrolly">Next</a>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<section id="footer">
+				<div class="container">
+					<header class="major">
+						<h2>Contact</h2>
 					</header>
-					<div class="tech-icon-container">
-						<div class="tech-icon-logo-and-name">
-								<img class='tech-logo' src="images/tech-logos/python.png" />
-								<h3>Python</h3>
+					<div class='contact-info-container'>
+						<div class='email-and-phone-number-container'>
+							<a href="mailto:melanie@melaniedavila.com">melanie@melaniedavila.com</a>
 						</div>
-						<div class="tech-icon-logo-and-name">
-								<img class='tech-logo' src="images/tech-logos/pandas.png" />
-								<h3>pandas</h3>
-						</div>
-						<div class="tech-icon-logo-and-name">
-							<img class='tech-logo' src="images/tech-logos/r.png" />
-							<h3>R</h3>
-						</div>
-						<div class="tech-icon-logo-and-name">
-							<img id="shiny-logo" class='tech-logo' src="images/tech-logos/shiny.png" />
-							<h3>Shiny</h3>
-						</div>
-						<div class="tech-icon-logo-and-name">
-							<img id="ggplot2-logo" class='tech-logo' src="images/tech-logos/ggplot2.png" />
-							<h3>ggplot2</h3>
-						</div>
-						<div class="tech-icon-logo-and-name">
-								<img class='tech-logo' src="images/tech-logos/ruby.png" />
-								<h3>Ruby</h3>
-						</div>
-						<div class="tech-icon-logo-and-name">
-								<img id='rails-logo' class='tech-logo' src="images/tech-logos/rails.png" />
-								<h3>Ruby on Rails</h3>
-						</div>
-						<div class="tech-icon-logo-and-name">
-								<img class='tech-logo' src="images/tech-logos/rspec.png" />
-								<h3>RSpec</h3>
-						</div>
-						<div class="tech-icon-logo-and-name">
-							<img class='tech-logo' src="images/tech-logos/javascript.png" />
-							<h3>JavaScript</h3>
-						</div>
-						<div class="tech-icon-logo-and-name">
-							<img class='tech-logo' src="images/tech-logos/redux.png" />
-							<h3>Redux</h3>
-						</div>
-						<div class="tech-icon-logo-and-name">
-								<img class='tech-logo' src="images/tech-logos/react.png" />
-								<h3>React</h3>
-						</div>
-						<div class="tech-icon-logo-and-name">
-								<img class='tech-logo' src="images/tech-logos/postgresql.png" />
-								<h3>PostgreSQL</h3>
-						</div>
-						<div class="tech-icon-logo-and-name">
-								<img class='tech-logo' src="images/tech-logos/git.png" />
-								<h3>Git</h3>
-						</div>
-						<div class="tech-icon-logo-and-name">
-							<img class='tech-logo' src="images/tech-logos/html.png" />
-							<h3>HTML5</h3>
-						</div>
-						<!-- <div class="tech-icon-logo-and-name">
-							<img class='tech-logo' src="images/tech-logos/scss.png" />
-							<h3>SCSS</h3>
-						</div> -->
-						<div class="tech-icon-logo-and-name">
-								<img id='css-logo' class='tech-logo' src="images/tech-logos/css.png" />
-								<h3 id='css-logo-label'>CSS3</h3>
-						</div>
-						<div id="aws-container">
-								<img id='aws-logo' class='tech-logo' src="images/tech-logos/amazon_web_services.png" />
-								<h3 id='aws-logo-label'>AWS</h3>
-						</div>
-						<div class="tech-icon-logo-and-name">
-								<img class='tech-logo' src="images/tech-logos/heroku.png" />
-								<h3>Heroku</h3>
-						</div>
-						<div class="tech-icon-logo-and-name">
-								<img class='tech-logo' src="images/tech-logos/docker.png" />
-								<h3>Docker</h3>
-						</div>
-						<div id='google-maps-container' class="tech-icon-logo-and-name">
-								<img class='tech-logo' src="images/tech-logos/google_maps_api.png" />
-								<h3 id='google-maps-logo-label'>Google Maps API</h3>
+						<div class='email-and-resume-buttons'>
+							<a href="mailto:melanie@melaniedavila.com" class="button"> Email</a>
+							<a href="./assets/files/resume.pdf" class="button" target="_blank">Resume</a>
 						</div>
 					</div>
-					<footer>
-						<p>Want to see my skills in action?</p>
-						<a href="#portfolio" class="button big scrolly">See some of my recent work</a>
-					</footer>
-				</article>
-			</div>
-
-		<!-- Portfolio -->
-			<div class="wrapper style3">
-				<article id="portfolio">
-					<header>
-						<h2>Here are some projects I've worked on recently.</h2>
-					</header>
-					<div class="container">
-						<div class="row">
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="https://github.com/melaniedavila/cellranger-aws-pipeline" class="image featured" target="_blank"><img src="images/portfolio/cellranger_pipeline_diagram.png" alt="Diagram of the cellranger pipeline" /></a>
-									<h3><a href="https://github.com/melaniedavila/cellranger-aws-pipeline" target="_blank">Cellranger Pipeline</a></h3>
-									<p>A cloud-based deployment of the 10x Genomics Cell Ranger software</p>
-									<a href="https://github.com/melaniedavila/cellranger-aws-pipeline" target="_blank">GitHub</a>
-								</article>
-							</div>
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="https://github.com/ismms-himc/cytutils" class="image featured" target="_blank"><img src="images/portfolio/cytutils-shiny-gui.png" alt="Cytutils R/Shiny app user interface screenhot" /></a>
-									<h3><a href="https://github.com/ismms-himc/cytutils" target="_blank">cytutils</a></h3>
-									<p>An R package and R/Shiny app for cytometry quality control and reproducibility utilities.</p>
-									<a href="https://github.com/ismms-himc/cytutils" target="_blank">GitHub</a>
-								</article>
-							</div>
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="https://github.com/melaniedavila/midsoul" class="image featured" target="_blank"><img src="images/portfolio/midsoul-route-creation.png" alt="A screenshot from the app Midsoul" /></a>
-									<h3><a href="https://github.com/melaniedavila/midsoul" target="_blank">midSoul</a></h3>
-									<p>A fullstack, single-page app for runners, built with Rails, React.js, & Redux</p>
-									<a href="https://github.com/melaniedavila/midsoul" target="_blank">GitHub</a>
-								</article>
-							</div>
-						</div>
-						<div class="row">
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="http://melaniedavila.com/remission-possible/" class="image featured" target="_blank"><img src="images/portfolio/remission-possible.png" alt="A screenshot of Remission Possible gameplay" /></a>
-									<h3><a href="http://melaniedavila.com/remission-possible/" target="_blank">(Re)Mission Possible</a></h3>
-									<p>A browser-based cancer butt-kicking game, built with JavaScript & Easel.js</p>
-									<a href="http://melaniedavila.com/remission-possible/" target="_blank">Live</a> | <a href="https://github.com/melaniedavila/remission-possible">GitHub</a>
-								</article>
-							</div>
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="https://github.com/melaniedavila/dynamic-record" class="image featured" target="_blank"><img src="images/portfolio/dynamic-record.png" alt="A screenshot of the Ruby code for DyanmicRecord" /></a>
-									<h3><a href="https://github.com/melaniedavila/dynamic-record" target="_blank">DynamicRecord</a></h3>
-									<p>A lightweight Ruby object relational mapping (ORM) library.</p>
-									<a href="https://github.com/melaniedavila/dynamic-record" target="_blank">GitHub</a>
-								</article>
-							</div>
-						</div>
-					</div>
-					<footer>
-						<p>Want to get to know me?</p>
-						<a href="#about" class="button big scrolly">About Me</a>
-					</footer>
-				</article>
-			</div>
-
-		<!-- About & Contact -->
-			<div class="wrapper style4">
-				<article id="about" class="container 75%">
-					<header>
-						<h2>About Me</h2>
-						<p class='about-me'>Hi, my name is Melanie and I'm a software engineer in NYC. I love solving challenging problems and learning new technologies, even more so when I'm working as part of a team.</p>
-					<p class='about-me'>I geek out about all things data and have over 6 years of professional experience solving data-related problems and enhancing the end user experience in the biotechnology, public health, and healthcare industries.</p>
-							<p class='about-me'>Growing up, I always found myself breaking things and putting them back together. In university I majored in Genetics where through my labwork I continued the trend by knocking out genes, observing what went wrong (or right), and making an educated guess regarding the function of the gene.</p>
-						<p class='about-me'>My education in Genetics has strongly informed the way I learn new technologies and tackle engineering challenges. Instead of focusing solely on writing code, I spend much of my time breaking down my own code and the code of others in order to develop a deeper understanding of what makes the code work and to write DRY, elegant code.</p>
-						<p class='about-me'>When I'm not coding, I enjoy running, reading, and playing the saxophone.</p>
-					</header>
-					<div>
-						<div class="row">
-							<div class="12u">
-								<article id="contact">
-									<hr />
-									<h2>Contact</h2>
-									<div class='contact-info-container'>
-										<div class='email-and-phone-number-container'>
-											<p><i class="fa fa-envelope fa-lg" aria-hidden="true"></i>melanie@melaniedavila.com</p>
-										</div>
-										<div class='email-and-resume-buttons'>
-											<a href="mailto:melanie@melaniedavila.com" class="button"> Email</a>
-											<a href="./assets/files/resume.pdf" class="button" target="_blank">Resume</a>
-										</div>
-									</div>
-								</article>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div class="row">
-							<div class="12u">
-								<article>
-									<hr />
-									<h3>Let's build something together</h3>
-									<ul class="social">
-										<li><a href="mailto:melanie@melaniedavila.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-										<li><a href="https://linkedin.com/in/melaniedavila" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-										<li><a href="https://github.com/melaniedavila" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
-										<li><a href="https://angel.co/melanie-davila" class="icon fa-angellist" target="_blank"><span class="label">AngelList</span></a></li>
-									</ul>
-									<hr />
-								</article>
-							</div>
-						</div>
-					</div>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; MELANIE DAVILA</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-				</article>
-			</div>
+				</div>
+				<footer>
+					<h3>Let's build something together</h3>
+					<ul class="icons">
+						<!-- <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li> -->
+						<li><a href="mailto:melanie@melaniedavila.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://linkedin.com/in/melaniedavila" class="icon brands alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/melaniedavila" class="icon brands alt fa-github" target="_blank"><span class="label">Github</span></a></li>
+						<li><a href="https://angel.co/melanie-davila" class="icon brands alt fa-angellist" target="_blank"><span class="label">AngelList</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; MELANIE DAVILA</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+			</section>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
